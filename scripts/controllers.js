@@ -77,7 +77,7 @@ angular.module('basic.controllers', ['basic.services'])
 			price: '$'
 		},
 		'Torchy\'s Tacos': {
-			type: 'Text Mex',
+			type: 'Tex Mex',
 			price: '$'
 		},
 		'South Congress Cafe': {
