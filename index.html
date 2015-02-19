@@ -10,15 +10,44 @@
     <body>
 
         <div ng-controller="ArrayCtrl">
-            <!-- use ng-repeat to iterate over the disney movies and put them in a table with the columns: Title and Year -->
-
-            <!-- use ng-repeat to iterate over the student names and put them in an unordered list -->
+         <!-- use ng-repeat to iterate over the disney movies and put them in a table with the columns: Title and Year -->
+            <table align="left">
+            <th align="left">Movie</th>
+            <th align="left">Year</th>
+                <tr ng-repeat="movie in disney">
+                    <td>{{ movie.title }}</td>
+                    <td>{{ movie.year }}</td>
+                </tr>
+            </table>
+            
+        <!-- use ng-repeat to iterate over the student names and put them in an unordered list -->
+            <table align="center">
+            <th align="center">Student</th>
+                <tr ng-repeat="student in names">
+                    <td>{{ student }}</td>
+                </tr>
+            </table>
         </div>
 
         <div ng-controller="ObjectCtrl">
             <!-- use ng-repeat to iterate over the social networks and put them in an ordered list of anchor tags -->
+            <ol>
+                <li ng-repeat="site in networks">
+                    <a ng-href="{{ site }}">{{ site }}</a>
+                </li>
+            </ol>
 
             <!-- use ng-repeat to iterate over the restaurants and put them in a table with the columns: Name, Type and Price -->
+            <table align="left">
+            <th align="left">Name</th>
+            <th align="left">Type</th>
+            <th align="left">Price</th>
+                <tr ng-repeat="(restaurant, info) in restaurants">
+                    <td>{{ restaurant }}</td>
+                    <td>{{ info.type }}</td>
+                    <td>{{ info.price }}</td>
+                </tr>
+            </table>
         </div>
 
         <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
