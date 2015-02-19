@@ -37,7 +37,7 @@ After completing this assignment, you be able to effectively use
 
 
 ## Normal Mode
-Included in this repository is a half finished angular project with two controllers. Use the ng-repeat directive to display the data that has been defined in the controllers *without modifying the structure of the data.*
+Clone this repository and follow the instructions within the comments inside of the `index.html` file. Included in this repository is a half finished angular project with two controllers. Use the ng-repeat directive to display the data that has been defined in the controllers *without modifying the structure of the data.*
 * Use ng-repeat to iterate over the disney movies and put them in a table with the columns: Title and Year
 * Use ng-repeat to iterate over the student names and put them in an unordered list
 * Use ng-repeat to iterate over the social networks and put them in an ordered list of anchor tags
