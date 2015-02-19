@@ -47,6 +47,6 @@ Clone this repository and follow the instructions within the comments inside of 
 ## Notes
 Hints: For anchor tags you may need to use the ng-href directive.
 
-## Additional Resources
+<!-- ## Additional Resources
 
-* Read []()
+* Read []() -->
